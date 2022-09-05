@@ -1,0 +1,96 @@
+.imagen img{
+    width: 22.5rem;
+    height: 20rem;
+}
+.lorem{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    height:auto;
+    width: 20rem;
+    margin-left: 1.5rem;
+    color: rgb(114, 112, 112);
+}
+.by{
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1.5rem;
+    color: rgba(139, 135, 135, 0.553);
+}
+.opciones{
+    display: flex;
+    flex-direction: row;
+}
+.like{
+    display: flex;
+    flex-direction: row;
+
+    width: 5rem;
+    height: 2rem;
+    margin-left: 1.4rem;
+    margin-top: 1.4rem;
+
+    border: 2px;
+    border-color: gray;
+    border-style: solid;
+    border-radius: 5px;
+}
+.like_letras{
+    color: rgb(73, 73, 73);
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin-top: 7px;
+    margin-left: 0.5rem;
+}
+.like img{
+    width: 1.4rem;
+    height: 1.4rem;
+    margin-top: 4px;
+    margin-left: 6px;
+}
+.comment{
+    display: flex;
+    flex-direction: row;
+
+    width: 7.3rem;
+    height: 2rem;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+
+    border: 2px;
+    border-color: gray;
+    border-style: solid;
+    border-radius: 5px;
+}
+.comment_letras{
+    color: rgb(73, 73, 73);
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin-top: 7px;
+    margin-left: 0.5rem;
+}
+.comment1 img{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 3px;
+    margin-left: 5px;
+}
+.lorem_información{
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    height:auto;
+    width: 20rem;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+    color: rgb(122, 119, 119);
+}
+.lorem_información2{
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    height:auto;
+    width: 20rem;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+    color: rgb(122, 119, 119);
+}

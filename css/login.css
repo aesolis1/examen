@@ -1,0 +1,114 @@
+.seccion_general{
+    width: 350px;
+    height: 500px;
+}
+
+.logo{
+    margin: 8.2rem;
+    width: 2rem;
+    height: auto;
+    margin-top: 1.5rem;
+}
+.logo img{
+    width: 20rem;
+    height: auto;
+    margin: auto;
+    margin-top: 3rem;
+    border-radius: 100%;
+}
+
+.datos form{
+    padding: 0 2.5rem;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form .usuario{
+    position: relative;
+    border-bottom: 2px solid #a19e9e;
+    margin: 1rem 0;
+}
+.usuario input{
+    width: 100%;
+    padding: 0 10px;
+    height: 2rem;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+.usuario label{
+    width: 10rem;
+    color: rgb(130, 128, 128);
+    font-size: 15px;
+    pointer-events: none;
+}
+
+form .contraseña{
+    position: relative;
+    border-bottom: 2px solid #a19e9e;
+    margin: 1rem 0;
+
+}
+.contraseña input{
+    width: 100%;
+    padding: 0 10px;
+    height: 5rem;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+.contraseña label{
+    width: 10rem;
+    color: rgb(130, 128, 128);
+    font-size: 15px;
+    pointer-events: none;
+}
+
+.usuario input:focus ~ label{
+    top: -9px;
+    color: black;
+}
+
+.usuario input:focus ~ span::before{
+    width:100%
+}
+
+.contraseña input:focus ~ label{
+    top: -9px;
+    color: black;
+}
+.contraseña input:focus ~ span::before{
+    width: 100%;
+}
+.recuperar{
+    margin-left: 16rem;
+    color: rgb(117, 114, 114);
+    cursor: pointer;
+    font-size: 13px;
+}
+.recuperar:hover{
+    text-decoration: underline;
+}
+.boton_ingresar{
+    margin: 3.5rem;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 22px;
+
+    width: 25rem;
+    height: 30px;
+    background: #c2bfbfcc;
+    border-radius: 18px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+
+    margin-top: 7rem;
+    border-color: rgb(160, 160, 160);
+    transition: .5s;
+}
